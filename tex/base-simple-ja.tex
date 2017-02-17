@@ -1,19 +1,18 @@
 %#!uplatex
 \documentclass[autodetect-engine, dvipdfmx, fleqn]{jsarticle}
 
-\usepackage{graphicx}
-\usepackage{newtxtext}
-\usepackage{newtxmath}
-\usepackage{enumitem}
-\usepackage{geometry}
-\usepackage{url}
-\usepackage{otf}
+\usepackage{wtstyle}
 
-\usepackage[simple]{wtstyle}
+\setdocstyle{
+  packages = {
+    otf, newtxtext, newtxmath,
+    graphicx, enumitem, geometry},
+  emph style = \bfseries\gtseries}
 
-\title{}
-\author{}
-\date{}
+\setdocinfo{
+  title = {},
+  author = {},
+  date = {}}
 
 \begin{document}
 
