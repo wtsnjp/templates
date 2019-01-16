@@ -1,4 +1,4 @@
-#!python
+#!python3
 
 def main():
 	{{_cursor_}}
