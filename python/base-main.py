@@ -1,8 +1,8 @@
-#!python3
+#!python
 
 def main():
-	{{_cursor_}}
+    {{_cursor_}}
+
 
 if __name__ == '__main__':
-	main()
-
+    main()
